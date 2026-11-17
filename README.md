@@ -7,7 +7,7 @@ To simulate the drain and transfer characteristics of a MOSFET using LTspice sof
 •	MOSFET device/model
 •	DC voltage sources
 •	Voltage/current probes
-3. THEORY
+4. THEORY
 3.1 Transfer Characteristics
 In MOSFET applications, the input signal is the gate-to-source voltage VGS and the output is the drain current ID. The ability of a MOSFET to amplify the signal is given by the output/input ratio called transconductance.
 Transconductance:
@@ -49,7 +49,8 @@ B. Drain Characteristics
 6. OBSERVATION
 A. Transfer Characteristics
 S. No.	VGS (V)	VDS (V)	ID (mA)
-1			
+1			<img width="1917" height="982" alt="Screenshot 2026-11-17 184912" src="https://github.com/user-attachments/assets/0d4c0f54-ec08-4bba-807b-3f50d1022c03" />
+
 2			
 3			
 4			
@@ -57,14 +58,19 @@ S. No.	VGS (V)	VDS (V)	ID (mA)
 6			
 7			
 8			
-Graph: Plot ID vs. VGS for constant VDS.
+Output Graph: Plot ID vs. VGS for constant VDS.
+<img width="1915" height="1010" alt="Screenshot 2026-11-17 190355" src="https://github.com/user-attachments/assets/7858310b-094d-4808-b699-1f3acee1d6b0" />
+
+
 B. Drain Characteristics
 S. No.	VDS (V)	VGS (V)	ID (mA)
-1			
+1			<img width="1917" height="1017" alt="Screenshot 2026-11-17 190021" src="https://github.com/user-attachments/assets/9077b37a-2657-45b2-9a6a-eb6e24e4c4fa" />
+
 2			
-3			
-4			
-5			
+3			Output Graph:
+4
+5			<img width="1912" height="1000" alt="Screenshot 2026-11-17 190558" src="https://github.com/user-attachments/assets/8343097b-9208-46e4-9966-907f3c82b21a" />
+
 6			
 7			
 8			
@@ -72,22 +78,5 @@ Repeat the observation for different constant values of VGS.
 Simulation Results
 
  ID vs. VDS for different values of VGS.
-
-
-
-8. CALCULATIONS
-Transconductance:
-gm = ΔID / ΔVGS
-Therefore,  gm = __________________ S
-Drain Resistance:
-rd = ΔVDS / ΔID
-Therefore,  rd = __________________ Ω
 9. RESULT
-Thus, the drain and transfer characteristics of the MOSFET were simulated using LTspice. The values of transconductance (gm) and drain resistance (rd) were determined from the respective characteristics.
-gm = __________________ S
-rd = __________________ Ω
-10. PRECAUTIONS
-•	Check the MOSFET terminal connections before starting the simulation.
-•	Use appropriate voltage sweep limits.
-•	Keep VDS constant while obtaining transfer characteristics.
-•	Keep VGS constant for each drain-characteristic curve.
+Thus, the drain and transfer characteristics of the N-channel MOSFET were simulated using LT-spice. The values of transconductance (gm) and drain resistance (rd) were determined from the respective characteristics.
