@@ -78,5 +78,6 @@ Repeat the observation for different constant values of VGS.
 Simulation Results
 
  ID vs. VDS for different values of VGS.
-9. RESULT
+ 
+9. RESULT:
 Thus, the drain and transfer characteristics of the N-channel MOSFET were simulated using LT-spice. The values of transconductance (gm) and drain resistance (rd) were determined from the respective characteristics.
