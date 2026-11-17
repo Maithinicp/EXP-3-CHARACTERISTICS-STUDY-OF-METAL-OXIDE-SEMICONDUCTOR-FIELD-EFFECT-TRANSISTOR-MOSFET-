@@ -49,8 +49,7 @@ B. Drain Characteristics
 6. OBSERVATION
 A. Transfer Characteristics
 S. No.	VGS (V)	VDS (V)	ID (mA)
-1			<img width="1917" height="982" alt="Screenshot 2026-11-17 184912" src="https://github.com/user-attachments/assets/0d4c0f54-ec08-4bba-807b-3f50d1022c03" />
-
+1			<img width="1917" height="1017" alt="Screenshot 2026-11-17 190021" src="https://github.com/user-attachments/assets/9077b37a-2657-45b2-9a6a-eb6e24e4c4fa" />
 2			
 3			
 4			
@@ -64,7 +63,8 @@ Output Graph: Plot ID vs. VGS for constant VDS.
 
 B. Drain Characteristics
 S. No.	VDS (V)	VGS (V)	ID (mA)
-1			<img width="1917" height="1017" alt="Screenshot 2026-11-17 190021" src="https://github.com/user-attachments/assets/9077b37a-2657-45b2-9a6a-eb6e24e4c4fa" />
+<img width="1917" height="982" alt="Screenshot 2026-11-17 184912" src="https://github.com/user-attachments/assets/0d4c0f54-ec08-4bba-807b-3f50d1022c03" />
+1		
 
 2			
 3			Output Graph:
